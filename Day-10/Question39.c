@@ -1,0 +1,28 @@
+// Write a program to Print number pyramid.
+//     1
+//    121
+//   12321
+//  1234321
+// 123454321
+
+#include<stdio.h>
+int main(){
+    int i,j;
+    for(i = 1 ; i <= 5 ; i++){
+        for(j = 1 ; j <= 5 - i ; j++){
+            printf("  ");
+        }
+
+        for(j = 1 ; j <= i ; j++){
+            printf("%d ",j);
+        }
+
+        for(j = 0 ; j < i - 1 ; j++){
+            int a = i - (j + 1);
+            printf("%d ",a);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
