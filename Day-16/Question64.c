@@ -15,13 +15,14 @@ int main(){
         for(k = i+1 ; k < n ; k++){
             if(arr[i] == arr[k]){
                 x = arr[k];
-                for(j = k ; j < n ; j++){
+                for(j = k ; j < n-1 ; j++){
                     if(j != n-1){
                         arr[j] = arr[j+1];
                     }
                 }
                 arr[n-1] = x;
                 n--;
+                k--;
             }
         }
     }
