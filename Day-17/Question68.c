@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 int main(){
-    int i,a,b,j,c = 0,x,k;
+    int i,a,b,j,c = 0,x,k,z;
 
     printf("Enter number of element required in first array: ");
     scanf("%d",&a);
