@@ -13,9 +13,9 @@ int main(){
         c = c * 10 + b;
     }
     if(c == n){
-        printf("The given is a palindrome number");
+        printf("The given number is a palindrome number");
     }else{
-        printf("The given is not a palindrome number");
+        printf("The given number is not a palindrome number");
     }
 
     return 0;
