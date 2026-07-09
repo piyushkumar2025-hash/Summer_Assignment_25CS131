@@ -9,7 +9,7 @@ int main() {
     for(i = 0; str[i] != '\0'; i++) {
         
     }
-    printf("Length of the string is %d", i);
+    printf("Length of the string is %d",i-1);
 
     return 0;
 }
